@@ -1,0 +1,1 @@
+{"version":3,"file":"savedLook.d.ts","sourceRoot":"","sources":["../../../src/generated/types/savedLook.ts"],"names":[],"mappings":"AAAA;;;;;;GAMG;AAEH,MAAM,WAAW,SAAS;IACxB,EAAE,EAAE,MAAM,CAAC;IACX,SAAS,EAAE,MAAM,CAAC;IAClB,KAAK,EAAE,MAAM,CAAC;IACd,gBAAgB;IAChB,QAAQ,EAAE,MAAM,GAAG,IAAI,CAAC;IACxB,gBAAgB;IAChB,KAAK,CAAC,EAAE,MAAM,GAAG,IAAI,CAAC;IACtB,SAAS,EAAE,IAAI,CAAC;CACjB"}
