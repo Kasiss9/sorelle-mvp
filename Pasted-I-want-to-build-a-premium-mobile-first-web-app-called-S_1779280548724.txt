@@ -1,0 +1,238 @@
+I want to build a premium mobile-first web app called **Sorelle**.
+
+Sorelle is an emotionally intelligent AI stylist for women.
+
+The core product is simple:
+
+Users upload an outfit photo, mirror selfie, try-on photo, or shopping screenshot, then chat naturally with Sorelle for styling advice.
+
+This is not a shopping app, not a social network, and not a closet-management tool.
+
+The main goal of the MVP is:
+
+**Create an AI stylist women trust enough to ask twice.**
+
+## Brand Feeling
+
+Sorelle should feel like:
+
+* a stylish older sister
+* calm luxury
+* emotionally intelligent
+* supportive but honest
+* tasteful
+* warm
+* editorial
+* premium but approachable
+* feminine without being too girly
+
+The app should feel like:
+
+**“A luxury fashion magazine combined with a supportive stylist conversation.”**
+
+## MVP Screens
+
+Build only these screens:
+
+### 1. Welcome / Onboarding Screen
+
+Minimal and elegant.
+
+Headline:
+**Style that gets you.**
+
+Subtext:
+**Your emotionally intelligent AI stylist for feeling confident, elevated, and understood.**
+
+CTA button:
+**Start styling**
+
+Keep onboarding very short. No long quiz.
+
+### 2. Upload Screen
+
+This is the main entry point.
+
+Users should be able to upload:
+
+* mirror selfies
+* outfit photos
+* try-on photos
+* shopping screenshots
+* clothing item photos
+
+The upload area should feel premium and simple.
+
+Include example prompts such as:
+
+* “Does this outfit work?”
+* “How can I make this more elegant?”
+* “What shoes should I wear?”
+* “Is this flattering?”
+* “Can this work for dinner?”
+* “Style this for vacation.”
+
+### 3. Chat Screen
+
+After uploading a photo, the user enters a chat with Sorelle.
+
+The chat should support:
+
+* uploaded image preview
+* AI styling response
+* user follow-up questions
+* elegant quick action buttons
+
+Sorelle should give feedback on:
+
+* what works well
+* what could improve
+* silhouette
+* colors
+* proportions
+* occasion fit
+* accessories
+* shoes
+* styling alternatives
+* confidence-oriented advice
+
+The AI tone should be:
+
+* emotionally warm
+* intelligent
+* tasteful
+* supportive
+* specific
+* non-judgmental
+* not robotic
+
+Avoid generic AI wording.
+
+### 4. Quick Action Buttons
+
+Show refined buttons below responses:
+
+* More elegant
+* More casual
+* More flattering
+* Date night
+* Workwear
+* Vacation styling
+* Minimalist
+* Capsule wardrobe
+
+These should trigger follow-up styling questions in the chat.
+
+### 5. Saved Looks Screen
+
+Allow users to save/bookmark:
+
+* outfit chats
+* favorite recommendations
+* styling advice
+
+Keep this lightweight. Do not build a full wardrobe system.
+
+## Do Not Build Yet
+
+Do not include:
+
+* social feed
+* marketplace
+* influencer features
+* closet organization
+* body measurements
+* avatars
+* gamification
+* long onboarding quiz
+* shopping checkout
+* trend feed
+* resale features
+
+## Design Direction
+
+Use a quiet luxury fashion aesthetic.
+
+Color palette:
+
+* Warm Ivory: #F5F1EA
+* Sand: #DDD0BE
+* Taupe: #B8A792
+* Espresso: #3A261D
+* Mocha: #7A6350
+* Soft Stone: #D7D5CF
+* Muted Charcoal Brown: #5B5550
+* Dusty Rose: #D8A7A2 as accent only
+
+Typography:
+
+* Elegant editorial serif for logo/headlines
+* Clean modern sans-serif for UI/body text
+
+Visual inspiration:
+
+* The Row
+* Toteme
+* luxury editorial magazines
+* premium skincare brands
+* quiet luxury fashion apps
+
+UI style:
+
+* soft rounded cards
+* warm neutral backgrounds
+* spacious layout
+* minimal navigation
+* subtle shadows
+* elegant buttons
+* calm premium interface
+* mobile-first design
+
+Avoid:
+
+* neon colors
+* tech startup look
+* futuristic AI visuals
+* loud gradients
+* chaotic layouts
+* overly playful fonts
+
+## Tech Requirements
+
+Use:
+
+* React / Next.js style structure if possible
+* Supabase for backend/storage/auth
+* OpenAI Vision + Chat for AI styling feedback
+* Supabase Storage for uploaded outfit photos
+
+For now, build the UI and app structure clearly, with mock AI responses if needed.
+
+The most important part is the product experience:
+Upload outfit → receive emotionally intelligent styling advice → ask follow-up → save the look.
+
+## AI Personality Direction
+
+Sorelle should respond like a stylish older sister.
+
+Example tone:
+
+“Okay, I see what you’re going for — this already has a soft, elegant base. The silhouette works nicely, especially because the proportions feel balanced. To make it feel more elevated, I’d swap the shoes for something sleeker, add one warm metallic detail, and keep the bag minimal. You don’t need to change much — just refine the finishing touches.”
+
+The AI should never make the user feel judged or insecure.
+
+It should help her feel:
+
+* understood
+* confident
+* elevated
+* guided
+* emotionally supported
+
+## MVP Success Loop
+
+The app should encourage this behavior:
+
+Open app → upload outfit → ask styling question → get thoughtful advice → ask follow-up → save result → come back again.
+
+That is the core loop.
